@@ -17,7 +17,7 @@ cache:
      - ./node_modules
 
 install:
-  - npm install
+  - npm install -g npm@2
 
 script:
   - npm run test:cover -- --watch=false --progress=false --browsers=ChromeHeadlessCI
@@ -26,5 +26,14 @@ script:
 
 after_success:
   - npm run coveralls
+  - npm run build:gh-pages:demo1
 
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  on:
+    branch: master
+    branch: feat/gh-pages-with-travis
 

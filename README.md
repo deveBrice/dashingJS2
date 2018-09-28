@@ -1,6 +1,8 @@
 [![Coverage Status](https://coveralls.io/repos/github/deveBrice/dashingJS2/badge.svg?branch=master)](https://coveralls.io/github/deveBrice/dashingJS2?branch=master)
 [![Build Status](https://travis-ci.org/deveBrice/dashingJS2.svg?branch=master)](https://travis-ci.org/deveBrice/dashingJS2)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/62b5d436344d418ab56c80b2ba9d036f)](https://www.codacy.com/app/deveBrice/dashingJS2?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=deveBrice/dashingJS2&amp;utm_campaign=Badge_Grade)
+[![Known Vulnerabilities](https://snyk.io/test/github/deveBrice/dashingJS2/badge.svg?targetFile=package.json)](https://snyk.io/test/github/deveBrice/dashingJS2?targetFile=package.json)
+
 
 # DashingJS2
 
